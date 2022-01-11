@@ -1,0 +1,106 @@
+.booking-section {
+    
+    margin: 0 10rem;
+    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0, .3);
+    transform: translateY(-5rem);
+    padding: 5rem 8rem;
+}
+
+
+.description-section {
+    padding: 0 10rem;
+    margin: 10rem 0;
+}
+
+.description {
+    &__header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    &__span {
+        color: #323232;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 300;
+    }
+
+    &__box {
+        display: flex;
+        padding-bottom: 3rem;
+    }
+
+    &__note {
+        margin-top: 4.8rem;
+        padding-right: 10rem;
+    }
+
+
+    /////rating
+    &__rating {
+        margin-top: 2.6rem;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 30%;
+
+        &--info {
+            border-bottom: 3px solid #386641;
+            padding-bottom: 1.3rem;
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+            color: #555555;
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 1.8rem;
+
+
+            &:not(:last-child) {
+                margin-bottom: 4.5rem;
+            }
+        }
+    }
+}
+
+.workspace-section {
+    margin: 10rem 0;
+    padding: 0 10rem;
+}
+
+.productivity-section {
+    position: relative;
+}
+
+.amenities-section {
+    margin: 10rem 0;
+    padding: 0 10rem;
+}
+
+.freelance-section {
+    padding: 0 10rem;
+    margin-bottom: 15rem;
+    background: linear-gradient(to right, transparent 0%, transparent 58%, #ffcfd8 58%);
+}
+
+.reservation-section {
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+.events-section {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.reviews-section {
+    padding: 0 10rem;
+    margin-bottom: 15.6rem;
+}
+
+
+
+

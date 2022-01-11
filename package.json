@@ -1,0 +1,14 @@
+{
+  "name": "nitda",
+  "version": "1.0.0",
+  "description": "NITDA website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "WUSU",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

@@ -1,0 +1,82 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &--nav {
+        background-color: #fff;
+        color:#720E07;
+        border-radius: 4px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.8rem;
+        font-weight: 600;
+        padding: .8rem 2.2rem;
+    }
+
+    &--header {
+        color:#fff;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        padding: 1.8rem 4.2rem;
+        border: 1px solid #E31C0E;
+    }
+
+    &--primary {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: #E31C0E;
+        display: flex;
+        position: relative;
+        
+
+
+
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 2rem;
+            height: 2rem; 
+            margin-left: .4rem;
+            position: absolute;
+            transform: translateY(.2rem); 
+
+
+        //older browsers
+        //background-image: url(../img/chevron-thin-right.svg);
+        //background-size: cover;
+
+        //never browses -masks
+        background-color: #e31c0e;
+        -webkit-mask-image: url(../img/double_arrow.svg);
+        -webkit-mask-size: cover;
+        mask-image: url(../img/double_arrow.svg);
+        mask-size: cover;
+        }
+    }
+
+    &--secondary {
+        color: #fff;
+        background-color:#720E07; 
+        padding: 2.2rem 9rem; 
+        border-radius: 7px;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    &--event {
+        color: #323232;
+        background-color: #fddfb1;
+        padding: 1.1rem 4.2rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        border-radius: 10px;
+    }
+}

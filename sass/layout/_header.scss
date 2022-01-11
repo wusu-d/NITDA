@@ -1,0 +1,43 @@
+.header {
+    background-image: url(../img/pexels-matheus-natan-2976970.png);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 23.5rem;
+    position: relative;
+    width: 100%;
+
+    &__text-box {
+        margin-left: 10.2rem;
+        margin-top: 11.6rem;
+    }
+
+    &__paragraph {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 3.3rem;
+        color: #fff;
+        width: 52.7rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.heading-primary {
+    color: #fff;
+    &__main {
+        display: block;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 700;
+    }
+
+    &__sub {
+        display: block;
+        font-size: 6rem;
+        line-height: 6.8rem;
+        font-weight: 700;
+        width: 55rem;
+        margin-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+}

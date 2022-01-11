@@ -1,0 +1,53 @@
+.freelance {
+    &__container {
+        display: flex;
+    }
+
+    &__text {
+        margin-top: 4rem;
+        flex: 0 0 40%; 
+        padding-bottom: 25rem;
+    }
+
+}
+
+.freelance-images {
+    position: relative;
+    flex: 1;
+    &__photo {
+        position: absolute;
+
+        &--1 {
+            top: 5rem;
+            left: 10rem;
+            z-index: 2;  
+        }
+
+        &--2 {
+            top: 31%; 
+            left: 3rem;
+            z-index: 2;   
+        }
+
+        &--3 {
+            top: 5rem;
+            right: 38%; 
+            z-index: 2;  
+        }
+
+        &--4 {
+            right: 43%; 
+            bottom: 27%; 
+              
+        }
+
+        &--5 {
+            width: 36rem;
+            height: 47rem;
+            border: 8px solid #386641;
+            left: 30%;
+            top: 24%;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.event-container { 
+    display: flex;
+    margin-top: 8rem;
+}
+
+.event {
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    margin-right: 9rem;
+    
+
+    &__hackerthon {
+        padding: 4.2rem 0 0 9.6rem;  
+        display: flex;
+        align-items: center;
+    }
+
+    &__schedule {
+        display: flex;
+        flex-direction: column;
+
+        &--name {
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: #323232;
+        }
+
+        &--day {
+            text-transform: uppercase;
+            display: block;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+        
+    }
+
+    &__time {
+        margin-left: 15rem;
+        color: #575757;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    &__note {
+        margin-left: 17.6rem;
+        margin-right: 7rem;
+        color: #575757;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    &__banner {
+        background-image: url(../img/events.png);  
+        background-color: #2b5433;
+        background-size: cover;
+        background-position: top;
+        padding: 5.5rem 12.6rem 6.8rem 2.7rem;
+
+        &--note {
+            color: #fff;
+            font-size: 3.5rem;
+            font-weight: 700;
+            width: 23.2rem;
+        }
+
+        &--button {
+            margin-top: 3rem;
+        }
+    }
+}
+

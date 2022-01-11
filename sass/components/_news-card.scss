@@ -1,0 +1,83 @@
+.news-header {
+    margin-left: 10rem;
+}
+.news {
+
+    display: flex;
+    margin-top: 9rem;
+    padding: 0 16rem;
+
+    &__card-picture {
+        height: 29rem;
+        background-size: cover;
+        position: relative;
+
+        &--1 {
+            background-image: url(../img/newscard-1.png);
+        }
+
+        &--2 {
+            background-image: url(../img/newscard-2.png);
+        }
+    }
+
+    &__card-span {
+        display: inline-block;
+        padding: 1.5rem 3rem; 
+        color: white;
+        font-size: 2.6rem;
+        font-weight: 800;
+        position: absolute;
+        right: 2rem;
+        bottom: 1.7rem;
+
+        &--1 {
+            background-color: #292526;
+        }
+
+        &--2 {
+            background-color: #386641;
+        }
+    }
+
+
+    &__card {
+
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); 
+
+        &--date {
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin: 3rem 0 ;
+            color: #5b5b5b;
+        }
+
+        &--heading {
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #3e3e3e;
+            margin-bottom: 1rem; 
+        }
+
+        &--btn {
+            margin-top: 3.5rem;
+        }
+
+        &:not(:last-child) {
+            margin-right: 8rem;
+        }
+    }
+
+    &__button {
+        margin-top: 9rem;
+    }
+
+    
+
+    &__card-details {
+        padding: 2rem 6rem 6rem 2rem;  
+        background-color: #fff;
+    }
+}
